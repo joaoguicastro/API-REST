@@ -5,6 +5,19 @@ import crypto, { randomUUID } from 'node:crypto'
 import { checkSessionIdExists } from "../middleware/check-session-id-exists"
 
 
+//teste automatizados{
+
+// teste unitarios: teste na unidade da sua aplicaçao (uma parte especifica)
+
+// teste integraçao: testa a comunicaçao entre duas ou mais unidades
+
+// teste e2e - ponta a ponta: sao teste que simulam um usuario operando na nossa aplicação
+
+
+// PIRAMIDE DE TESTE: E2E (nao depende de nenhuma tecnologia, nao depende de arquitetura)
+
+//}
+
 // Cookies <-> Formas da gente manter contexto entre requisições
 
 export async function transactionsRoutes(app:FastifyInstance){
